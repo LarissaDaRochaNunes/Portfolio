@@ -4,51 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Larissa da Rocha Nunes</title>
-    <link rel="stylesheet" href="style.01.css">
-    <link rel="shortcut icon" href="imagens/octocat-icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <div class="container">
-            <img src="imagens/IMG-20201202-WA0006~2.jpg" alt="Foto de Larissa da Rocha Nunes" class="profile-photo">
-            <h1>Larissa da Rocha Nunes</h1>
-            <h2>Desenvolvedora Júnior</h2>
-        </div>
+        <h1>Larissa da Rocha Nunes</h1>
+        <p>Desenvolvedora Backend | Python • MySQL • GitHub</p>
     </header>
 
-    <main class="container">
-        <section>
-            <h3>👩‍💻 Sobre mim</h3>
-            <p>Sou apaixonada por tecnologia e desenvolvimento backend. Tenho experiência com Python, Git, GitHub, bancos de dados MySQL, HTML5 e CSS3. Sempre buscando aprender mais e criar soluções eficientes. Estou cursando Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas.</p>
-        </section>
+    <section id="sobre" class="container">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou a Larissa, desenvolvedora júnior apaixonada por tecnologia e por aprender coisas novas todos os dias. Tenho experiência com Python, banco de dados MySQL, versionamento com Git e GitHub, além de noções de HTML e CSS. Busco crescer profissionalmente contribuindo com soluções criativas e eficazes.</p>
+    </section>
 
-        <section>
-            <h3>🛠️ Habilidades</h3>
-            <ul>
-                <li>Python</li>
-                <li>Git & GitHub</li>
-                <li>Bancos de dados MySQL</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-            </ul>
-        </section>
-        <h3>📚 Meus projetos</h3>
-        <ul>
-            <li><a href="https://github.com/LarissaDaRochaNunes/Calculadora" target="_blank">Calculadora</a></li>
-            <li><a href="https://larissadarochanunes.github.io/Site-sustentavel/" target="_blank">Site sustentável</a></li>
-        </ul>
+    <section id="habilidades" class="container">
+        <h2>Habilidades</h2>
+        <div class="skills-list">
+            <span class="skill">Python</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">Git</span>
+            <span class="skill">GitHub</span>
+            <span class="skill">HTML5</span>
+            <span class="skill">CSS3</span>
+        </div>
+    </section>
 
-        <section>
-            <h3>📫 Contato</h3>
-            <p><img src="imagens/icone-email-formatada.png" alt="Icone email"> Email: <a href="mailto:larissadarochanunes47@gmail.com">larissadarochanunes47@gmail.com</a></p>
-            <p><img src="imagens/icone-github.png" alt="Icone GitHub"> GitHub: <a href="https://github.com/LarissaDaRochaNunes" target="_blank">https://github.com/LarissaDaRochaNunes</a></p>
-            <p><img src="imagens/icone-linkedin.png" alt="Icone Linkedin"> Linkedin: <a href="https://www.linkedin.com/in/larissa-da-rocha-nunes-975684241/" target="_blank">https://www.linkedin.com/in/larissa-da-rocha-nunes</a></p>
-            <p><img src="imagens/icone-instagram.png" alt="icone Instagram"> Instagram: <a href="https://www.instagram.com/_larissa_r_nunes_/?igsh=eWJlYzJhOGNxNDJh" target="_blank">https://www.instagram.com/_larissa_r_nunes_</a></p>
-        </section>
-    </main>
+    <section id="projetos" class="container">
+        <h2>Projetos</h2>
+        <div class="projects">
+
+            <div class="project-card">
+                <h3>Calculadora Python</h3>
+                <p>Aplicação que realiza operações básicas como soma, subtração, multiplicação e divisão com interface simples.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Site Sustentável</h3>
+                <p>Projeto desenvolvido com HTML e CSS para promover ações sustentáveis no dia a dia com design limpo e responsivo.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Script de Cadastro</h3>
+                <p>Script em Python com MySQL que simula o cadastro e consulta de usuários em um sistema simples.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <p>Quer conversar ou saber mais sobre meus projetos? Me chama:</p>
+        <div class="contact-links">
+            <a href="mailto:larissadarochanunes@gmail.com" target="_blank">E-mail</a>
+            <a href="https://github.com/larissadarochanunes" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/larissadarochanunes/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/larissadarochanunes/" target="_blank">Instagram</a>
+        </div>
+    </section>
 
     <footer>
-        <p>© 2025 Larissa da Rocha Nunes</p>
+        <p>© 2025 Larissa da Rocha Nunes. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
